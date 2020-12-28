@@ -1,0 +1,27 @@
+#this program is for assignment oprators
+
+a=15
+b=25
+
+a=b
+print("a=b is",a)
+
+
+a+=b
+print("a+=b is",a)
+
+
+a-=b
+print("a-=b is",a)
+
+
+a*=b
+print("a*=b is",a)
+
+
+a/=b
+print("a/=b is",a)
+
+
+a%=b
+print("a%=b is",a)
