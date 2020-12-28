@@ -1,0 +1,28 @@
+#this program is for bitwise operators
+a=55                   #55 = 0011 0111
+b=47                   #47 = 0010 1111
+c=0
+
+c=a&b                   #39 = 0010 0111
+print("a&b is ",c)
+
+
+c=a|b                   #63 = 0011 1111
+print("a|b is ",c)
+
+
+c=a^b                  #24 =0001 1000
+print("a^b is ",c)
+
+
+c=~a
+print("~a is ",c)
+
+
+c=a<<2                  #200 = 1100 1000   
+print("a<<2 is ",c)
+
+
+c=a>>2                  #13 = 0000 1101
+print("a>>2 is ",c)
+
