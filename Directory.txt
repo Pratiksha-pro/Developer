@@ -1,0 +1,14 @@
+#compare
+
+dict1={'name':'anu','age':'20'}
+dict2={'name':'anu','age':'20'}
+dict3={'name':'anu','age':'22'}
+dict4={'name':'sar','age':'24'}
+
+print"return value: %d" % cmp(dict1,dict2)
+print"return value: %d" % cmp(dict1,dict3)
+print"return value: %d" % cmp(dict1,dict4)
+
+#length
+
+print"length :%d"  % len(dict1)
