@@ -1,0 +1,84 @@
+L1=[2011,2012,"pratiksha","anu",40,50]
+L2=[2019,2014,2018]
+
+print("the value of list is:",L1)
+print("the value of list is:",L1[1])
+print("the valule of list is:",L1[3])
+print("the value pf list is:",L1[-1])
+print("the value of list is:",L1[-3])
+print("the value of list is:",L1[0:3])
+
+#length operation
+
+print("length of list is:",len(L1))
+
+#maximum length
+
+print("maximum length is:",max(L1))
+
+#minimum length
+
+print("minimum length is:",min(L1))
+
+# append operation
+
+L1.append("sarita");
+print L1;
+
+L1.append("sarita");
+print L1;
+
+#count operation;
+
+print "count for sarita:",L1.count("sarita");
+
+#extend  opration
+
+L1.extend(L2);
+print L1
+
+#insert opeation
+#at particular location
+
+L1.insert(3,400);
+print L1
+
+#pop opration (delete the obj of 2nd position)
+
+print "L1:",L1.pop(2);
+
+print L1
+
+#remove operation
+
+L1.remove("sarita")
+print"L1:",L1;
+
+#reverse opration
+
+L1.reverse();
+print"L1:",L1;
+
+#########directory##################
+
+dict={'name':'anu','age':50,'class':'bsc'};
+
+
+print"dict['name'] :",dict['name'];
+print"dict['age']:",dict['age'];
+
+#update
+dict['age']=6; #update existing entry
+dict['school']="dyb school"; #new entry
+
+print"dict['age']:",dict['age'];
+print"dict['school']:",dict['school'];
+
+#delete
+
+del dict['name'];   #remove entry with key name
+#dict.clear();       #remove all entries in dict
+
+
+print "dict['age']:",dict['age'];
+print "dictt['school']:",dict['school'];
